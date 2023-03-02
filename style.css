@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,800&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300&family=Raleway:wght@200;300;400;500&family=Roboto:wght@300;400;500;700&family=Rubik:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,800&family=Poppins:wght@200;300;400;500;600;700;800&family=Raleway:wght@200;300;400;500&family=Roboto:wght@300;400;500;700&family=Rubik:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,800&family=Poppins:wght@200;300;400;500;600;700;800&family=Raleway:wght@200;300;400;500&family=Roboto:wght@300;400;500;700;900&family=Rubik:wght@300;400;500;600;700;800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.contener{
+    font-family: Roboto;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(232, 255, 247, 0.247);
+}
+.page1{
+    overflow: hidden;
+    width: 100%;
+    height: 117vh;
+    background-image: url(/img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 2%;
+}
+.nom{
+    width: 40%;
+    font-family: Rubik;
+    font-size: 110%;
+    display: flex;
+    color: rgb(11, 166, 255);
+    overflow: hidden;
+}
+.menu{
+    font-family: Poppins;
+    width: 45%;
+    list-style-type: none;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.438);
+    cursor: pointer;
+    overflow: hidden;
+}
+.home{
+    color:rgb(11, 166, 255);
+}
+.button1{
+    font-size: 95%;
+    color: white;
+    background-color: rgb(11, 166, 255);
+    border: 0cm;
+    padding: 2.5% 5%;
+    border-radius: 5px;
+}
+.button1:hover{
+    background-color: white;
+    color: black;
+}
+
+.text_page1{
+    width: 35%;
+    padding:15% 5% 0% 9%;
+}
+.poisk{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+    width: 110%;
+    height: 10vh;
+    background-color:white;
+    border-radius: 10px;
+}
+.input1{
+    padding: 3%;
+    border: 0;
+}
+.select1{
+    padding: 3%;
+    border: 0;
+}
+.button2{
+    background-color:rgb(11, 166, 255) ;
+    padding: 2% 3%;
+    border: 0;
+    border-radius: 5px;
+    margin-left: 10%;
+    cursor: pointer;
+}
+.img_page1{
+    position: relative;
+    width: 50%;
+    height: 105vh;
+    background-color:;
+}
+.doc_img{
+    position: absolute;
+    bottom: 0;
+    right: 15%;
+    z-index: 5;
+}
+.somon{
+    width: 100%;
+    height:100vh;
+}
+.back{
+    position: relative;
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    z-index: 2;
+}
+.bbbb{
+    width: 100%;
+    height: 90vh;
+}
+.fon{
+    position: absolute;
+    bottom: 75%;
+    right: 85%;
+    background-color: white;
+    width: 10%;
+    height: 10%;
+    z-index: 8;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video{
+    position: absolute;
+    bottom: 77%;
+    right: 15%;
+    background-color: white;
+    width: 10%;
+    height: 10%;
+    z-index: 8;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sms{
+    position: absolute;
+    bottom: 40%;
+    right: 92%;
+    background-color: white;
+    width: 10%;
+    height: 10%;
+    z-index: 8;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dil{
+    overflow: hidden;
+    position: absolute;
+    bottom: 20%;
+    right: 8%;
+    background-color: white;
+    width: 25%;
+    height: 16vh;
+    z-index: 8;
+    text-align: center;
+    padding-top: 1%;
+    border-radius: 10px;
+    
+}
+.chel{
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    bottom: 10%;
+    right: 65%;
+    background-color: white;
+    width: 30%;
+    height: 8vh;
+    z-index: 8;
+    padding-top: 1%;
+    padding-left: 2%;
+    border-radius: 10px;
+    
+}
+
+
+.ull{
+    display: flex;
+    justify-content: space-evenly;
+}
+.ul{
+    text-align: center;
+    width: 22%;
+    margin: 5% 0;
+}
+.fooon{
+    background-color:rgba(5, 160, 160, 0.137);
+    width: 23%;
+    height: 10vh;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 38%;
+}
+
+.page3{
+    display: flex;
+    justify-content:space-evenly;
+}
+.img_page3{
+    width: 40%;
+    height: 100vh;
+    position: relative;
+}
+.kletka{
+    position: absolute;
+    top: 18%;
+    left: 10%;
+    z-index: 2;
+}
+.soya{
+    position: absolute;
+    top: 44.5%;
+    left: 0;
+    z-index: 1;
+}
+.nim{
+    position: absolute;
+    top: 38.4%;
+    left: -12.8%;
+    z-index: 5;
+}
+.bott{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+.cheli{
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    top: 23%;
+    left: 63%;
+    background-color: white;
+    width: 40%;
+    height: 8vh;
+    z-index: 8;
+    padding: 2%;
+    padding-left: 2%;
+    border-radius: 10px;
+    
+}
+.dr{
+    position: absolute;
+    top: 38%;
+    left: -15%;
+    z-index: 8;
+    overflow: hidden;
+    background-color: white;
+    width: 50%;
+    height: 26vh;
+    border-radius: 20px;
+}
+.dilak{
+    position: absolute;
+    top: 30%;
+    left: 6%;
+    z-index: 10;
+    opacity: 0.75;
+}
+.text_page3{
+    overflow: hidden;
+    width: 35%;
+    height: 100vh;
+    margin-top: 5%;
+    
+}
+.eeee:hover{
+    background-color: white;
+    color: black;
+}
